@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CorsConfig>
+ <Cors>
+   <Origins>
+     <Origin>http://127.0.0.1:3000</Origin>
+     <Origin>https://twenty-style-test.appspot.com</Origin>
+     <Origin>https://form.twenty.style</Origin>
+   </Origins>
+   <Methods>
+     <Method>GET</Method>
+     <Method>OPTIONS</Method>
+     <Method>POST</Method>
+     <Method>PUT</Method>
+   </Methods>
+   <ResponseHeaders>
+     <ResponseHeader>*</ResponseHeader>
+   </ResponseHeaders>
+   <MaxAgeSec>3600</MaxAgeSec>
+ </Cors>
+</CorsConfig>
